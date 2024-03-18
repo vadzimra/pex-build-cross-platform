@@ -1,0 +1,4 @@
+numpy>=1.24,<1.25
+pybedtools==0.9.1
+pysam==0.22.0
+six

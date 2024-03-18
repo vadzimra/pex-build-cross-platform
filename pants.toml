@@ -1,0 +1,16 @@
+[GLOBAL]
+pants_version = "2.19.1"
+
+backend_packages = ["pants.backend.python",]
+
+[source]
+root_patterns = "/"
+
+[python]
+interpreter_constraints = ["==3.8.*"]
+enable_resolves = true
+
+[python-repos]
+find_links = [
+    "file:///%(buildroot)/wheels"
+]
