@@ -7,7 +7,7 @@ backend_packages = ["pants.backend.python",]
 root_patterns = "/"
 
 [python]
-interpreter_constraints = ["==3.8.*"]
+interpreter_constraints = ["==3.8.18"]
 enable_resolves = true
 
 [python-repos]
